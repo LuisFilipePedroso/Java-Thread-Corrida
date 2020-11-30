@@ -1,9 +1,9 @@
-class Run extends Thread {
+class Run01 extends Thread {
 	String car;
 	Integer laps;
 	String currentCar;
 	
-	public Run(String car, Integer laps) {
+	public Run01(String car, Integer laps) {
 		this.car = car;
 		this.laps = laps;
 	}
